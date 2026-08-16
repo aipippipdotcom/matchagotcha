@@ -78,10 +78,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Matcha Gotcha | Vinamilk" },
-      { name: "description", content: "Kem gelato matcha Ichibancha từ Nishio, Aichi." },
+      { name: "description", content: "Kem gelato Matcha Gotcha của Vinamilk: matcha vụ Ichibancha đầu tiên tại Nishio, Aichi. Vị trà non, ít ngọt, gelato mịn 90g." },
       { name: "author", content: "Vinamilk" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Matcha Gotcha | Vinamilk" },
+      { name: "twitter:title", content: "Matcha Gotcha | Vinamilk" },
+      { property: "og:description", content: "Kem gelato Matcha Gotcha của Vinamilk: matcha vụ Ichibancha đầu tiên tại Nishio, Aichi. Vị trà non, ít ngọt, gelato mịn 90g." },
+      { name: "twitter:description", content: "Kem gelato Matcha Gotcha của Vinamilk: matcha vụ Ichibancha đầu tiên tại Nishio, Aichi. Vị trà non, ít ngọt, gelato mịn 90g." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8f9c9b9ecbbac267b13bd64a1374496e/id-preview-db977465--8d99882f-ab07-48a1-8e99-46731f090898.lovable.app-1786879602180.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8f9c9b9ecbbac267b13bd64a1374496e/id-preview-db977465--8d99882f-ab07-48a1-8e99-46731f090898.lovable.app-1786879602180.png" },
     ],
     links: [
       {

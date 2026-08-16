@@ -18,7 +18,10 @@ export function useReveal() {
           }
         }
       },
-      { threshold: 0.15, rootMargin: "0px 0px -8% 0px" },
+      // threshold stays near 0: clip-path on the target shrinks its
+      // intersection rect, so a larger threshold would never fire.
+      { threshold: 0.01, rootMargin: "0px 0px -6% 0px" },
+
     );
 
     nodes.forEach((node) => observer.observe(node));

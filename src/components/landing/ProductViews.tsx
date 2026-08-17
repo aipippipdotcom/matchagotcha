@@ -78,7 +78,7 @@ export function ProductViews() {
         <div className="mt-14 grid items-center gap-10 lg:grid-cols-[1.4fr_1fr]">
           <div
             data-reveal
-            className="reveal relative flex min-h-[26rem] items-center justify-center rounded-[2.5rem] border border-border bg-card p-6 md:min-h-[38rem] md:p-12"
+            className="reveal relative flex min-h-[26rem] items-center justify-center overflow-hidden rounded-[2.5rem] border border-border bg-card p-6 md:min-h-[38rem] md:p-12"
           >
             <img
               key={active.id}
@@ -142,7 +142,7 @@ export function ProductViews() {
                     width={200}
                     height={200}
                     loading="lazy"
-                    className="size-full object-contain"
+                    className="size-full scale-[1.45] object-contain"
                   />
                 </button>
               ))}

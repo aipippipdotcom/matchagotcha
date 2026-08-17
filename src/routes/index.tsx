@@ -39,6 +39,7 @@ function Index() {
       <Hero />
       <Marquee />
       <Flavours />
+      <ProductViews />
       <Benefits />
       <Story />
       <Experience />

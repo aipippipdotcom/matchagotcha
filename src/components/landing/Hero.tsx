@@ -25,7 +25,7 @@ export function Hero() {
             Kem gelato matcha thượng hạng
           </span>
 
-          <h1 className="mt-6 text-[15vw] leading-[0.85] font-black tracking-tighter sm:text-7xl lg:text-8xl">
+          <h1 className="mt-6 text-[15vw] leading-[0.98] font-black tracking-tighter sm:text-7xl lg:text-8xl">
             <span data-reveal className="clip-reveal block">
               MATCHA
             </span>

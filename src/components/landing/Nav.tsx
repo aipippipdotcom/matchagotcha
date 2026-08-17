@@ -4,6 +4,7 @@ import { Menu, X } from "lucide-react";
 const links = [
   { label: "Sản phẩm", href: "#san-pham" },
   { label: "Hương vị", href: "#huong-vi" },
+  { label: "Chi tiết", href: "#chi-tiet" },
   { label: "Câu chuyện", href: "#cau-chuyen" },
   { label: "Trải nghiệm", href: "#trai-nghiem" },
   { label: "Điểm bán", href: "#diem-ban" },

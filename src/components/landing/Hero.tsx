@@ -84,7 +84,7 @@ export function Hero() {
           </ul>
         </div>
 
-        <div className="relative flex justify-center lg:-mr-12">
+        <div className="relative flex justify-center">
           <div
             className="absolute inset-x-0 top-1/2 -z-10 aspect-square -translate-y-1/2 rounded-full opacity-70 blur-2xl"
             style={{ background: "radial-gradient(circle, var(--sage), transparent 60%)" }}
@@ -95,7 +95,7 @@ export function Hero() {
             width={1200}
             height={1200}
             fetchPriority="high"
-            className="float-slow w-[96%] max-w-2xl drop-shadow-[0_40px_60px_rgba(31,80,55,0.25)] lg:w-[115%] lg:max-w-none"
+            className="float-slow w-[92%] max-w-xl drop-shadow-[0_40px_60px_rgba(31,80,55,0.25)] lg:w-full lg:max-w-2xl"
           />
         </div>
       </div>

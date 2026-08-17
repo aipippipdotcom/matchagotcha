@@ -173,14 +173,19 @@
 }
 
 @utility clip-reveal {
-  clip-path: inset(0 0 100% 0);
+  /* Vietnamese diacritics sit above/below the em box — keep breathing room
+     so the clip mask never cuts dấu mũ / dấu nặng. */
+  line-height: 1.12;
+  padding-block: 0.08em 0.14em;
+  clip-path: inset(-0.25em -0.25em 100% -0.25em);
   transition: clip-path 1s cubic-bezier(0.16, 1, 0.3, 1);
   transition-delay: var(--reveal-delay, 0ms);
 
   &[data-visible="true"] {
-    clip-path: inset(0 0 0 0);
+    clip-path: inset(-0.25em -0.25em -0.25em -0.25em);
   }
 }
+
 
 /* Button with a sliding fill on hover */
 @utility btn-fill {

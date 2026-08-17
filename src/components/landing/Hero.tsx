@@ -84,17 +84,18 @@ export function Hero() {
           </ul>
         </div>
 
-        <div className="relative flex justify-center">
+        <div className="relative flex justify-center lg:-mr-12">
           <div
-            className="absolute inset-x-8 top-1/2 -z-10 aspect-square -translate-y-1/2 rounded-full opacity-70 blur-2xl"
+            className="absolute inset-x-0 top-1/2 -z-10 aspect-square -translate-y-1/2 rounded-full opacity-70 blur-2xl"
             style={{ background: "radial-gradient(circle, var(--sage), transparent 60%)" }}
           />
           <img
             src={product.url}
             alt="Hộp kem gelato Matcha Gotcha của Vinamilk"
-            width={900}
-            height={900}
-            className="float-slow w-[78%] max-w-lg drop-shadow-[0_40px_60px_rgba(31,80,55,0.25)] lg:w-full"
+            width={1200}
+            height={1200}
+            fetchPriority="high"
+            className="float-slow w-[96%] max-w-2xl drop-shadow-[0_40px_60px_rgba(31,80,55,0.25)] lg:w-[115%] lg:max-w-none"
           />
         </div>
       </div>

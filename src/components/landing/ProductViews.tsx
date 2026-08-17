@@ -44,7 +44,7 @@ const views = [
 ];
 
 export function ProductViews() {
-  const [active, setActive] = useState(views[0]);
+  const [active, setActive] = useState(views[0]!);
 
   return (
     <section id="chi-tiet" className="relative overflow-hidden py-24 md:py-32">

@@ -5,6 +5,7 @@ import { Nav } from "@/components/landing/Nav";
 import { Hero } from "@/components/landing/Hero";
 import { Marquee } from "@/components/landing/Marquee";
 import { Flavours } from "@/components/landing/Flavours";
+import { ProductViews } from "@/components/landing/ProductViews";
 import { Benefits } from "@/components/landing/Benefits";
 import { Story } from "@/components/landing/Story";
 import { Experience } from "@/components/landing/Experience";
@@ -38,6 +39,7 @@ function Index() {
       <Hero />
       <Marquee />
       <Flavours />
+      <ProductViews />
       <Benefits />
       <Story />
       <Experience />

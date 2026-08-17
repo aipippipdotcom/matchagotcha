@@ -87,7 +87,7 @@ export function ProductViews() {
               width={1200}
               height={1200}
               loading="lazy"
-              className="reveal-img w-full max-w-2xl object-contain drop-shadow-[0_40px_60px_rgba(31,80,55,0.2)]"
+              className="w-full max-w-2xl scale-[1.35] object-contain drop-shadow-[0_40px_60px_rgba(31,80,55,0.2)]"
             />
             <span className="absolute left-6 top-6 rounded-full bg-foreground px-4 py-1.5 font-mono text-[10px] tracking-[0.25em] uppercase text-background md:left-10 md:top-10">
               {active.label}

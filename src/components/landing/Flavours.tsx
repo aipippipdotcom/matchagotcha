@@ -46,10 +46,10 @@ export function Flavours() {
                 <img
                   src={product.url}
                   alt="Hộp kem gelato Matcha Gotcha 90g"
-                  width={600}
-                  height={600}
+                  width={800}
+                  height={800}
                   loading="lazy"
-                  className="w-44 shrink-0 transition-transform duration-700 group-hover:-translate-y-2 group-hover:rotate-3 sm:w-56"
+                  className="w-60 shrink-0 transition-transform duration-700 group-hover:-translate-y-2 group-hover:rotate-3 sm:w-72"
                 />
                 <div className="min-w-0">
                   <span className="font-mono text-[10px] tracking-[0.3em] uppercase text-accent">
